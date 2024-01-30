@@ -1,8 +1,15 @@
 ---
-title: "**CURSO De Barbeiro(A) Profissional**"  # Título
+title: "**Curso De Barbeiro(A) Profissional**"  # Título
 subtitle: "Do Zero Absoluto"                    # SubTítulo
-author: "**VIRGÍLIO FERREIRA SOUSA**"           # Autores
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: 
+  - name: "**VIRGÍLIO FERREIRA SOUSA**"         # Autor 
+    corresponding: true
+    email: diegovatente@gmail.com
+    roles: 
+      - Cortes Social
+      - Barbas
+    affiliations: Attitude Man Barber           # Afiliação
+date: "`r format(Sys.time(), '%d %B, %Y')`"     # Data
 lang: pt                                        # idioma: português
 fig-cap-location: top
 format:
@@ -12,7 +19,7 @@ format:
     toc: true                # Indice/Sumário
     toc_float: true          # Indice Flutuante
     toc-title: SUMÁRIO       # Título do Indice
-    toc-location: left       # Posição do Indice
+    toc-location: right      # Posição do Indice
     number-sections: true    # Seção do Indice 
     colorlinks: true
   pdf: default
@@ -21,12 +28,33 @@ reference-location: margin
 citation-location: margin
 html-math-method: katex
 theme: 
-  light: [pulse,custom.scss]    #custom-light.theme
-  dark:  [cyborg,custom.scss]   #custom-dark.theme
+  light: [pulse,custom.scss]    #custom-light.theme #cerulean
+  dark:  [cyborg,custom.scss]   #custom-dark.theme  #darkly
 title-block-banner: true        #Estilo de banner no topo do documento
 abstract: "O Curso Básico de Barbeiro é indicado para você que é iniciante ou está começando e nunca pegou em uma máquina ou tesoura para cortar cabelo. Todas as aulas foram pensadas e desenvolvidas de uma forma simples e muito fácil de entender para você aprender tudo de forma DESCOMPLICADA e se tornar um barbeiro profissional, mesmo que esteja começando do **ABSOLUTO ZERO**"
+keywords: 
+  - Barbeiro
+  - Barba
 ---
 
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# **Licença** {#Licença .unnumbered}
+
+Este trabalho está licenciado sob a Licença Internacional Creative Commons Attribution-ShareAlike 4.0. Para visualizar uma cópia desta licença, visite \<http://creativecommons.org/licenses/by-sa/4.0/\> ou envie uma carta para Creative Commons, PO Box 1866, Mountain View, CA 94042, EUA.
+
+![License: CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png){width="25%" fig-align="left"}
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
 
 
 ```{r setup, include=FALSE}
@@ -35,12 +63,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tinytex)
 library(rmarkdown)
 library(knitr)
-
-
 ```
-
-
-
 
 
 ```{=html}
@@ -48,7 +71,44 @@ library(knitr)
 body{text-align: justify}
 </style>
 ```
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
 
+# **Quem É o Professor**
+
+Começou na barbearia aos 31 anos de idade,Virgílio começou a fazer os seus primeiros corte de cabelo. O jovem empresário hoje aos 41 anos de idade e já com mais de 10 anos na profissão de barbeiro é dono da sua própria barbearia e já emprega mais de 4 pessoas em sua equipe levando sustendo para suas famílias através da barbearia.
+
+Virgílio que é conhecido como **Barba** também compartilha seu conhecimento em cursos e workshop com sua metodologia simples e prática de aprender, com destaque para participaçõe em Projetos Socias nos bairros do distrito de Icoaraci, Estado do Pará - Brasil.
+
+O Barba, possui diversos cursos, tais como: **Barbeiro**, **Barba**, **Pigmentação** e **Corte Atualizado**, feitos com renomados Profissionais a nível Nacional.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+# **O Que Vou Aprender?**
+
+Você vai aprender muito mais do que apenas cortar cabelo, você vai dominar todas as técnicas para se tornar um Barbeiro Profissional Completo, confira:
+
+-   **Lista de Equipamentos/Materiais para Iniciar**;
+-   **Como Usar os Equipamentos**;
+-   **Cuidados Essenciais**;
+-   **Primeiro Corte de Cabelo**;
+-   **Técnicas de Tesoura**;
+-   **Técnicas de Navalha**;
+-   **Corte Social(Tesoura)**;
+-   **Corte Social(Máquina)**;
+-   **Técnica do Pezinho**;
+-   **Técnica da Sobrancelha**;
+-   **Técnicas de Fade/Degradê**;
+-   **High Fade(Degradê Alto)**;
+-   **Mid Fade(Degradê Médio)**;
+-   **LOW Fade(Degradê Baixo)**;
+
+**E MUITO, MUITO MAIS**
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -57,58 +117,25 @@ body{text-align: justify}
 
 # **História da Barbearia**
 
-A profissão de Barbeiro é uma das mais antiga da humanidade. Achados
-arqueológicos, como pentes e navalhas feitas de pedra, mostram que a
-preocupação com as madeixas vem da pré-história.
+A profissão de Barbeiro é uma das mais antiga da humanidade. Achados arqueológicos, como pentes e navalhas feitas de pedra, mostram que a preocupação com as madeixas vem da pré-história.
 
-No Egito antigo, há aproximadamente cinco mil anos, que a arte de cuidar
-dos cabelos chegou ao ápice.os barbeiros viajavam até seus clientes, a
-maioria padres, e utilizavam giletes que eram parecidas com pequenos
-machados com cabos curvados, que eram carregados em uma cesta tecida.
+No Egito antigo, há aproximadamente cinco mil anos, que a arte de cuidar dos cabelos chegou ao ápice.os barbeiros viajavam até seus clientes, a maioria padres, e utilizavam giletes que eram parecidas com pequenos machados com cabos curvados, que eram carregados em uma cesta tecida.
 
-O exercício do Ofício dos Barbeiros remonta a Antiguidade Clássica, os
-usos, funções e atribuições do termo passaram por diversas
-transformações ao longo da História. Inicialmente o Barbeiro, ou como
-era mais usual, o **Cirurgião-barbeiro**, acumulava um espectro de
-funções mais amplo do que na contemporaneidade.
+O exercício do Ofício dos Barbeiros remonta a Antiguidade Clássica, os usos, funções e atribuições do termo passaram por diversas transformações ao longo da História. Inicialmente o Barbeiro, ou como era mais usual, o **Cirurgião-barbeiro**, acumulava um espectro de funções mais amplo do que na contemporaneidade.
 
 |                                        |                                                  |                                     |
 |------------------------|------------------------|------------------------|
 | ![](images/egito1-01.jpg){width="201"} | ![](images/egito2.jpg){width="223" height="208"} | ![](images/egito3.jpg){width="224"} |
 
+E foi apenas em 1096 na França, que foi formada a primeira organização de barbeiros, sendo eles os barbeiros cirurgiões e os barbeiros dentistas, que foram se espalhando por toda a Europa. Eles também eram médicos da época (loucura, né?), pois realizavam cirurgias nos ferimentos de camponeses. Na época, tanto as pessoas da alta realeza, quanto as comuns vinham às barbearias para tratar suas doenças, barbear-se e cortar o cabelo, e foi assim até o ano de 1416
 
-E foi apenas em 1096 na França, que foi formada a primeira organização
-de barbeiros, sendo eles os barbeiros cirurgiões e os barbeiros
-dentistas, que foram se espalhando por toda a Europa. Eles também eram
-médicos da época (loucura, né?), pois realizavam cirurgias nos
-ferimentos de camponeses. Na época, tanto as pessoas da alta realeza,
-quanto as comuns vinham às barbearias para tratar suas doenças,
-barbear-se e cortar o cabelo, e foi assim até o ano de 1416
+Ser Barbeiro na antiguidade era uma profissão de prestigio social, que garantia status e independência financeira para quem a exercia. Ao longo dos séculos, a profissão passou por diversas transformações, sobretudo com o advento das ciências médicas e a institucionalização da medicina, que procuravam sancionar o direito dos Barbeiros de atuar como cirurgiões, dentistas e, de prescrever erva e medicamentos.
 
-Ser Barbeiro na antiguidade era uma profissão de prestigio social, que
-garantia status e independência financeira para quem a exercia. Ao longo
-dos séculos, a profissão passou por diversas transformações, sobretudo
-com o advento das ciências médicas e a institucionalização da medicina,
-que procuravam sancionar o direito dos Barbeiros de atuar como
-cirurgiões, dentistas e, de prescrever erva e medicamentos.
+Com o passar do tempo, o embate entre médicos e dentistas -- ligados à formalização destas profissões junto às universidades -- e os Cirurgiões-barbeiros, cuja profissão era perpetuada por meio da oralidade e da tradição, levou gradativamente a redução considerável do espectro de funções dos Barbeiros.
 
-Com o passar do tempo, o embate entre médicos e dentistas -- ligados à
-formalização destas profissões junto às universidades -- e os
-Cirurgiões-barbeiros, cuja profissão era perpetuada por meio da
-oralidade e da tradição, levou gradativamente a redução considerável do
-espectro de funções dos Barbeiros.
+Já no século XIX suas atribuições já estavam oficialmente restritas ao corte de cabelos e barba e deste então esta tradicional profissão, vem se adaptando e reinventando ao longo dos anos através das vicissitudes do tempo.
 
-Já no século XIX suas atribuições já estavam oficialmente restritas ao
-corte de cabelos e barba e deste então esta tradicional profissão, vem
-se adaptando e reinventando ao longo dos anos através das vicissitudes
-do tempo.
-
-Cada vez mais os novos padrões impuseram à população a necessidade da
-procura por profissionais altamente especializados como: médicos,
-dentistas, farmacêuticos, todos devidamente diplomados e regulamentados
-pelo Estado. Assim, essa reformulação do mundo do trabalho leva os
-diplomas e qualificações a adquirem maior valor do que a experiência dos
-barbeiros (ANTUNES, 1995).
+Cada vez mais os novos padrões impuseram à população a necessidade da procura por profissionais altamente especializados como: médicos, dentistas, farmacêuticos, todos devidamente diplomados e regulamentados pelo Estado. Assim, essa reformulação do mundo do trabalho leva os diplomas e qualificações a adquirem maior valor do que a experiência dos barbeiros (ANTUNES, 1995).
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -118,73 +145,44 @@ barbeiros (ANTUNES, 1995).
 ## **O Poste de Barbeiro (Barbe Pole)**
 ### **História do Barbe Pole**
 
-O poste clássico das barbearias, ou Barber Pole em inglês, começa na
-Idade Média, aquele que geralmente é colocado em frente às barbearias,
-tem sua origem da época das guerras, pois serviam para sinalizar aos
-feridos a uma distância considerável que ali eles encontrariam recursos
-para seus ferimentos, cortes e auxílio à saúde.
+O poste clássico das barbearias, ou Barber Pole em inglês, começa na Idade Média, aquele que geralmente é colocado em frente às barbearias, tem sua origem da época das guerras, pois serviam para sinalizar aos feridos a uma distância considerável que ali eles encontrariam recursos para seus ferimentos, cortes e auxílio à saúde.
 
-As bandagens eram penduradas nas portas das barbearias, num poste, e
-devido à ação do vento, ficavam enroladas. Assim, nasceu o símbolo
-indicativo de que ali trabalhava um barbeiro.
+As bandagens eram penduradas nas portas das barbearias, num poste, e devido à ação do vento, ficavam enroladas. Assim, nasceu o símbolo indicativo de que ali trabalhava um barbeiro.
 
-O poste giratório de padrão azul-vermelho-branco, que simboliza a
-barbearia clássica, nasceu do ofício de sangrador que o barbeiro também
-exercia. A princípio seria somente vermelho e branco, com a cor branca
-representando as bandagens utilizadas para estancar o sangramento,
-simbolizado pela cor vermelha.
-
+O poste giratório de padrão azul-vermelho-branco, que simboliza a barbearia clássica, nasceu do ofício de sangrador que o barbeiro também exercia. A princípio seria somente vermelho e branco, com a cor branca representando as bandagens utilizadas para estancar o sangramento, simbolizado pela cor vermelha.
 
 |                                           |                                           |                                             |
 |:---------------------:|:----------------------:|:-----------------------:|
 | ![](images/Barber_Pole1.jpg){width="101"} | ![](images/Barber_Pole2.jpg){width="112"} | ![](images/Barber_Pole-02.jpg){width="215"} |
 
-
-A cor azul, adicionada posteriormente, pode ser explicada de três
-maneiras: por simbolizar o sangue venoso; ou o azul com branco teria
-surgido para diferenciar os barbeiros que não faziam sangria; ou por
-questões de patriotismo, mais notadamente nos EUA, onde se combinava as
-três cores no padrão conhecido ainda hoje.
+A cor azul, adicionada posteriormente, pode ser explicada de três maneiras: por simbolizar o sangue venoso; ou o azul com branco teria surgido para diferenciar os barbeiros que não faziam sangria; ou por questões de patriotismo, mais notadamente nos EUA, onde se combinava as três cores no padrão conhecido ainda hoje.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
 
+# **Gestão da Beleza**
 
-# **Gestão da Beleza** 
+A grande tendência da atualidade é a personalização, principalmente no que se refere à Imagem Pessoal. A criação da beleza com estilo estabelece uma identidade personalizada. Isso é Gestão em Beleza!
 
-A grande tendência da atualidade é a personalização, principalmente no
-que se refere à Imagem Pessoal. A criação da beleza com estilo
-estabelece uma identidade personalizada. Isso é Gestão em Beleza!
+O trabalho de Gestão em Beleza se inicia com a análise da constituição física do cliente, seu porte, seu andar, seus gestos, o modo se sentar de falar, o formato de seu rosto, feições e proporções faciais, a lateralidade do rosto e a cor da pele.
 
-O trabalho de Gestão em Beleza se inicia com a análise da constituição
-física do cliente, seu porte, seu andar, seus gestos, o modo se sentar
-de falar, o formato de seu rosto, feições e proporções faciais, a
-lateralidade do rosto e a cor da pele.
+O formato do rosto é determinado pela sua estrutura óssea. Ao observar um rosto, coloque o cabelo para trás para revelar toda a sua linha.
 
-O formato do rosto é determinado pela sua estrutura óssea. Ao observar
-um rosto, coloque o cabelo para trás para revelar toda a sua linha.
-
-Os pontos principais a serem observados são a altura e a largura da
-testa, o formato das maçãs do rosto e o formato da mandíbula.
-
+Os pontos principais a serem observados são a altura e a largura da testa, o formato das maçãs do rosto e o formato da mandíbula.
 
 ## **Leitura Facial**
 
-**Comprimento**: quando um rosto for longo, chamaremos de Vertical; do
-contrário Horizontal.
+**Comprimento**: quando um rosto for longo, chamaremos de Vertical; do contrário Horizontal.
 
-**Formato**: utilizamos três marcações no próprio rosto para
-identificarmos sua forma.
+**Formato**: utilizamos três marcações no próprio rosto para identificarmos sua forma.
 
 -   Testa da nascente frontal até a sobrancelha;
 -   Têmporas da sobrancelha até o nariz;
 -   Da ponta do nariz ao queixo.
 
-**Linhas Internas**: é tudo aquilo que está dentro do formato do rosto:
-nariz, boca, bochechas, olhos, etc. As linhas internas são classificadas
-como:
+**Linhas Internas**: é tudo aquilo que está dentro do formato do rosto: nariz, boca, bochechas, olhos, etc. As linhas internas são classificadas como:
 
 -   Angulosas (Losangular, Quadrado, Retangular, Hexagonal).
 -   Arredondadas (Oval, Redondo, Triangular).
@@ -194,17 +192,11 @@ como:
 :::
 :::
 
-
-
-
 ## **Fatores Complementares**
 
-Além do formato do rosto existem fatores importantes que devem ser
-observados antes da escolha de um corte, no momento da Entrevista e da
-Anamnese:
+Além do formato do rosto existem fatores importantes que devem ser observados antes da escolha de um corte, no momento da Entrevista e da Anamnese:
 
-**Grupo anatômico**: diz respeito a todos as características do biotipo
-humano
+**Grupo anatômico**: diz respeito a todos as características do biotipo humano
 
 **Formato da cabeça**
 
@@ -230,18 +222,11 @@ humano
 
 ## **Tipos de Rosto**
 
-Estar sempre em dia com o visual é muito bom e uma estratégia que pode
-te ajudar com isso, é conhecer o melhor corte de cabelo para cada tipo
-de rosto.
+Estar sempre em dia com o visual é muito bom e uma estratégia que pode te ajudar com isso, é conhecer o melhor corte de cabelo para cada tipo de rosto.
 
-Muita gente pode achar que isso é uma grande besteira ou que não faz
-muito sentido, mas bastam alguns cliques e uma pesquisa não muito ampla,
-para saber que estar com o **corte de cabelo ideal** para o seu tipo de
-rosto pode mudar sua visionomia, ressaltando o que você tem de melhor e
-te deixando mais bonito.
+Muita gente pode achar que isso é uma grande besteira ou que não faz muito sentido, mas bastam alguns cliques e uma pesquisa não muito ampla, para saber que estar com o **corte de cabelo ideal** para o seu tipo de rosto pode mudar sua visionomia, ressaltando o que você tem de melhor e te deixando mais bonito.
 
-Nesse contexto será apresentado os principais tipos de Rosto para
-pessoas de biotipo brasileiro.
+Nesse contexto será apresentado os principais tipos de Rosto para pessoas de biotipo brasileiro.
 
 |                                        |
 |:--------------------------------------:|
@@ -249,97 +234,56 @@ pessoas de biotipo brasileiro.
 
 ### **Oval**
 
-Rosto vertical com linhas internas arredondadas. A "maçã" do rosto é
-levemente saliente e desce até acurva da mandíbula, que começa na altura
-da boca. Sua variação é a testa um pouco mais alongada e o queixo maior
-e o nariz longo.
+Rosto vertical com linhas internas arredondadas. A "maçã" do rosto é levemente saliente e desce até acurva da mandíbula, que começa na altura da boca. Sua variação é a testa um pouco mais alongada e o queixo maior e o nariz longo.
 
 ### **Quadrado e Retangular**
 
-Rosto vertical com linhas internas angulosas. Possui ângulos retos,
-testa retangular e têmporas não muito profundas. A "maçã" do rosto não é
-muito saliente e desce até a mandíbula quase verticalmente. É um rosto
-horizontal.
+Rosto vertical com linhas internas angulosas. Possui ângulos retos, testa retangular e têmporas não muito profundas. A "maçã" do rosto não é muito saliente e desce até a mandíbula quase verticalmente. É um rosto horizontal.
 
 ### **Triangular Invertido**
 
-Rosto horizontal e linhas internas angulosas. Testa larga e a mandíbula
-estreita com queixo pontudo, nem sempre pronunciado. Olhos espaçados,
-"maçãs" do rosto não muito pronunciadas, nem as têmporas profundas.
+Rosto horizontal e linhas internas angulosas. Testa larga e a mandíbula estreita com queixo pontudo, nem sempre pronunciado. Olhos espaçados, "maçãs" do rosto não muito pronunciadas, nem as têmporas profundas.
 
 ### **Triangular**
 
-Rosto horizontal e linhas internas arredondadas. Apresenta mandíbula
-larga e quadrada enquanto a testa é pequena estreita. As "maçãs" do
-rosto geralmente não são muito pronunciadas, porém as têmporas são
-profundas, ao contrário dos outros formatos, a linha da "maçã" do rosto
-até a mandíbula, inclina-se para fora.
+Rosto horizontal e linhas internas arredondadas. Apresenta mandíbula larga e quadrada enquanto a testa é pequena estreita. As "maçãs" do rosto geralmente não são muito pronunciadas, porém as têmporas são profundas, ao contrário dos outros formatos, a linha da "maçã" do rosto até a mandíbula, inclina-se para fora.
 
 ### **Redondo**
 
-Rosto e linhas internas arredondadas e leitura horizontal. Poucos
-ângulos, a testa e o queixo são menores que nos rostos ovais e os olhos
-são mais espaçados que o tradicional. O formato dos olhos e do nariz é
-arredondado, assim como a linha do cabelo.
+Rosto e linhas internas arredondadas e leitura horizontal. Poucos ângulos, a testa e o queixo são menores que nos rostos ovais e os olhos são mais espaçados que o tradicional. O formato dos olhos e do nariz é arredondado, assim como a linha do cabelo.
 
-### **Losangular (Diamante)**
+### **Losangular(Diamante)**
 
-Rosto horizontal e linhas angulosas. Muito parecido com o triangular
-invertido, ambos tem as "maçãs" do rosto pronunciadas, quase nenhuma
-definição no maxilar e o queixo pequeno. A diferença está na testa, que
-não é tão larga e em vez de ser reta, forma uma ponta ou curva
-pronunciada.
+Rosto horizontal e linhas angulosas. Muito parecido com o triangular invertido, ambos tem as "maçãs" do rosto pronunciadas, quase nenhuma definição no maxilar e o queixo pequeno. A diferença está na testa, que não é tão larga e em vez de ser reta, forma uma ponta ou curva pronunciada.
 
 ### **Hexagonal**
 
-Rosto com linhas internas angulosas e com variação em sua leitura,
-podendo esta ser de forma vertical ou horizontal. É bastante angular, a
-testa em forma de trapézio e a linha do cabelo é curta e reta. Devido
-aos traços mais angulares, este rosto é geralmente mais marcante,
-podendo haver variações na testa e no queixo.
+Rosto com linhas internas angulosas e com variação em sua leitura, podendo esta ser de forma vertical ou horizontal. É bastante angular, a testa em forma de trapézio e a linha do cabelo é curta e reta. Devido aos traços mais angulares, este rosto é geralmente mais marcante, podendo haver variações na testa e no queixo.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
 
-
-
 # **Ferramentas Para Barbeiros**
 
-Seja você ainda pesquisando como se tornar um barbeiro ou seja dono de
-uma barbearia há décadas, você provavelmente descobrirá ao longo do
-caminho. Certas ferramentas para barbeiros não são apenas conveniências,
-mas sim necessidades.
+Seja você ainda pesquisando como se tornar um barbeiro ou seja dono de uma barbearia há décadas, você provavelmente descobrirá ao longo do caminho. Certas ferramentas para barbeiros não são apenas conveniências, mas sim necessidades.
 
 ## **Tesouras**
 
-Ferramentas elétricas como máquinas de cortar cabelo, barbeadores
-elétricos e aparadores se tornaram bastante populares em barbearias. Mas
-as tesouras e as tesouras desfiadeiras continuam sendo itens
-indispensáveis.
+Ferramentas elétricas como máquinas de cortar cabelo, barbeadores elétricos e aparadores se tornaram bastante populares em barbearias. Mas as tesouras e as tesouras desfiadeiras continuam sendo itens indispensáveis.
 
-Os barbeiros podem escolher entre uma variedade de estilos, tamanhos,
-cabos e compensações, dependendo de suas preferências, experiência e
-orçamento. A maioria dos pares de alta qualidade terá um parafuso
-ajustável, para que você possa definir a tensão preferida.
+Os barbeiros podem escolher entre uma variedade de estilos, tamanhos, cabos e compensações, dependendo de suas preferências, experiência e orçamento. A maioria dos pares de alta qualidade terá um parafuso ajustável, para que você possa definir a tensão preferida.
 
-Embora existam muitos tipos de tesouras disponíveis, três tipos são os
-mais comumente usados:
+Embora existam muitos tipos de tesouras disponíveis, três tipos são os mais comumente usados:
 
--   **Tesouras convexas**: essas tesouras têm bordas convexas ou
-    biseladas no lado de corte e fornecem um corte suave e limpo.
-    Tesouras desfiadeiras: essas tesouras têm dentes no lado de corte e
-    são usadas para criar textura e remover volume do cabelo.
+-   **Tesouras convexas**: essas tesouras têm bordas convexas ou biseladas no lado de corte e fornecem um corte suave e limpo. Tesouras desfiadeiras: essas tesouras têm dentes no lado de corte e são usadas para criar textura e remover volume do cabelo.
 
--   **Tesouras de borda reta**: essas tesouras têm lâminas retas e são
-    usadas para técnicas específicas, como cortes com navalha.
-
+-   **Tesouras de borda reta**: essas tesouras têm lâminas retas e são usadas para técnicas específicas, como cortes com navalha.
 
 |                                                |                                                |
 |:-------------------------------------:|:-------------------------------:|
 | ![](images/Tesoura_barbeiro1.png){width="334"} | ![](images/Tesoura_barbeiro2.jpg){width="263"} |
-
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -348,67 +292,45 @@ mais comumente usados:
 
 ## **Máquinas e Aparadores**
 
-As máquinas de cortar cabelo e os aparadores são ferramentas cruciais em
-qualquer estação de trabalho de um barbeiro. Com lâminas elétricas
-afiadas, você pode criar detalhes precisos, refinar cortes de cabelo,
-fazer degradês perfeitos, misturar cabelos e aparar as bordas ao redor
-das orelhas e do pescoço.
+As máquinas de cortar cabelo e os aparadores são ferramentas cruciais em qualquer estação de trabalho de um barbeiro. Com lâminas elétricas afiadas, você pode criar detalhes precisos, refinar cortes de cabelo, fazer degradês perfeitos, misturar cabelos e aparar as bordas ao redor das orelhas e do pescoço.
 
 |                           |                            |                            |
 |:----------------------:|:----------------------:|:----------------------:|
 | ![](images/maquinas1.jpg) | ![](images/Maquinas3.webp) | ![](images/Maquinas2.webp) |
 
-Essas ferramentas para barbeiros economizam tempo e oferecem
-versatilidade. Com diferentes pentes de máquina disponíveis para
-diferentes comprimentos de corte.
+Essas ferramentas para barbeiros economizam tempo e oferecem versatilidade. Com diferentes pentes de máquina disponíveis para diferentes comprimentos de corte.
 
-As máquinas de cortar cabelo geralmente têm motores mais potentes para
-cortar o cabelo com mais eficiência, enquanto os aparadores são mais
-compactos e fáceis de manusear em áreas menores.
-
+As máquinas de cortar cabelo geralmente têm motores mais potentes para cortar o cabelo com mais eficiência, enquanto os aparadores são mais compactos e fáceis de manusear em áreas menores.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
 
-
 ## **Navalhas**
 
-Enquanto as máquinas de cortar cabelo e os aparadores são ideais para a
-maioria dos cortes de cabelo, nenhuma outra ferramenta se compara à
-precisão de uma navalha reta.
+Enquanto as máquinas de cortar cabelo e os aparadores são ideais para a maioria dos cortes de cabelo, nenhuma outra ferramenta se compara à precisão de uma navalha reta.
 
 |                                       |                                                    |                                       |
 |:-------------------------:|:-----------------------:|:-------------------:|
 | ![](images/navalha2.jpg){width="294"} | ![](images/navalha1.jpg){width="210" height="169"} | ![](images/navalha4.jpg){width="174"} |
 
-As navalhas retas são perfeitas para criar contornos nítidos no pescoço,
-aparar costeletas e oferecer um barbear impecável. É importante
-mantê-las afiadas e usar creme de barbear ou shave para obter o melhor
-resultado possível.
-
+As navalhas retas são perfeitas para criar contornos nítidos no pescoço, aparar costeletas e oferecer um barbear impecável. É importante mantê-las afiadas e usar creme de barbear ou shave para obter o melhor resultado possível.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
 
-
 ## **Pentes**
 
-Um bom pente é uma ferramenta essencial para ajudar a controlar fios
-rebeldes durante o corte de cabelo. Os pentes são úteis para
-desembaraçar o cabelo, criar linhas retas e precisas, separar seções do
-cabelo e distribuir produtos capilares de maneira uniforme.
+Um bom pente é uma ferramenta essencial para ajudar a controlar fios rebeldes durante o corte de cabelo. Os pentes são úteis para desembaraçar o cabelo, criar linhas retas e precisas, separar seções do cabelo e distribuir produtos capilares de maneira uniforme.
 
 |                                      |                                      |                                      |
-|:--------------------------:|:--------------------:|:---------------------:|
+|:-------------------------:|:--------------------:|:---------------------:|
 | ![](images/pentes1.jpg){width="286"} | ![](images/pentes3.png){width="207"} | ![](images/pentes4.jpg){width="186"} |
 
-Ter diferentes tipos de pentes, como pentes de dentes largos e finos,
-oferece versatilidade durante o atendimento.
-
+Ter diferentes tipos de pentes, como pentes de dentes largos e finos, oferece versatilidade durante o atendimento.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -417,14 +339,9 @@ oferece versatilidade durante o atendimento.
 
 ## **Escova de Pescoço e Capa**
 
-O conforto dos clientes é essencial durante o atendimento. Uma escova de
-pescoço é uma ferramenta útil para remover facilmente os pelos cortados
-que ficam grudados na pele, proporcionando uma experiência mais
-agradável para o cliente.
+O conforto dos clientes é essencial durante o atendimento. Uma escova de pescoço é uma ferramenta útil para remover facilmente os pelos cortados que ficam grudados na pele, proporcionando uma experiência mais agradável para o cliente.
 
-Além disso, uma capa é usada para proteger as roupas dos clientes de
-cabelos cortados, mantendo-os limpos e evitando sujeira.
-
+Além disso, uma capa é usada para proteger as roupas dos clientes de cabelos cortados, mantendo-os limpos e evitando sujeira.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
@@ -432,8 +349,7 @@ cabelos cortados, mantendo-os limpos e evitando sujeira.
 :::
 
 # **Tipos de Cortes**
-
-## **Corte Marcado**
+## **Marcado**
 
 -   Inicia-se o corte pelas laterais, seguindo como base um centímetro acima da base da orelha;
 -   Dê prosseguimento seguindo um centímetro por todo o contorno (acima da linha do acabamento);
@@ -441,7 +357,7 @@ cabelos cortados, mantendo-os limpos e evitando sujeira.
 -   Definir a franja;
 -   Fazer o acabamento limpo com a navalha;
 
-## **Corte Disfarcado**
+## **Disfarcado**
 
 -   Inicia-se o corte pelas laterais, seguindo como base um centímetro acima da base da orelha;
 -   Dê prosseguimento seguindo um centímetro por todo o contorno (acima da linha do acabamento);
@@ -449,36 +365,34 @@ cabelos cortados, mantendo-os limpos e evitando sujeira.
 -   Faça o corte do topo no ângulo de 90° na vertical nas laterais e na horizontal no topo, realizando a junção das mechas (inferiores e superiores).
 -   Fazer o acabamento limpo com a navalha;
 
-## **Corte Fade**
+## **Fade**
 
 -   Inicie o corte com a máquina até a linha de execução do disfarce (parte inferior das têmporas) por todo o contorno, na altura do pente desejado pelo cliente;
 -   Passe a máquina de corte na parte superior fazendo um degradê perfeito, desde a parte superior das têmporas até a parte inferior, alternando entre os pentes altos e baixo da máquina de corte;
--   Execute a técnica de “pente-navalha” ou desfiadeira no intuito de eliminar marcações e pontos no cabelo;
+-   Execute a técnica de "pente-navalha" ou desfiadeira no intuito de eliminar marcações e pontos no cabelo;
 -   Faça o acabamento limpo com a navalha;
 
-## **Corte Quadrado ou Flat Top**
+## **Quadrado ou Flat Top**
 
 -   Inicie o corte com a máquina até a linha de execução do disfarce (parte inferior das têmporas) por todo o contorno a 90°;
 -   Execute o disfarce até a parte superior das têmporas, lembrando sempre de fazer um degradê perfeito à máquina, alternando entre os pentes alto e baixo;
 -   Continue o corte na parte superior, criando uma linha imaginária, utilizando uma mecha guia por todo o topo (corte feito a 90° na horizontal, sem junção);
 -   Faça o acabamento limpo com a navalha.
 
+## **Militar**
 
-## **Corte Militar**
+-   Inicie o corte com a máquina até a linha de execução do disfarce (parte inferior das têmporas) por todo o contorno;
+-   Faça um degradê perfeito, desde a parte superior das têmporas até a parte inferior, alternando entre os pentes altos e baixo da máquina de corte;
+-   Faça o corte do topo, realizando a junção das mechas (inferiores e superiores);
+-   Faça o acabamento limpo com a navalha;
 
-- Inicie o corte com a máquina até a linha de execução do disfarce (parte inferior das têmporas) por todo o contorno;
-- Faça um degradê perfeito, desde a parte superior das têmporas até a parte inferior, alternando entre os pentes altos e baixo da máquina de corte;
-- Faça o corte do topo, realizando a junção das mechas (inferiores e superiores);
-- Faça o acabamento limpo com a navalha;
-
-
-## **Corte Social**
+## **Social**
 
 -   Inicie o corte no ângulo de 90º, deixando a mecha aproximadamente com 1 centímetro de comprimento, seguindo por todo o contorno;
 -   Faça o corte do topo, lembrando que este corte precisa ser feito, respeitando rigorosamente o caimento do cabelo do cliente (penteado), podendo assim ficar maior em alguns lugares, devido a falhas, entradas e roda moinhos;
 -   Fazer o acabamento limpo e perfeito com a navalha.
 
-## **Corte Moicano Tribalistico**
+## **Moicano Tribalistico**
 
 -   Inicia-se o corte pela lateral tomando como base o meio da sobrancelha do cliente
 -   Siga em linha reta até a nuca baixa;
@@ -486,25 +400,20 @@ cabelos cortados, mantendo-os limpos e evitando sujeira.
 -   Faça o corte com a tesoura no ângulo de 90°, da parte frontal até a nuca baixa;
 -   Faça acabamento limpo e perfeito com a navalha.
 
-## **Corte Moicano Disfarçado**
+## **Moicano Disfarçado**
 
 -   Inicie o corte pela lateral executando a técnica de pente corrido até a parte superior das têmporas por todo o contorno;
 -   Faça o corte do topo, fazendo o acabamento;
 -   Acabamento limpo com a navalha.
-
-
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
 
-
-
 # **Exemplos Práticos**
 
-Serão Apresentados alguns exemplos de como fazer um corte degradê rápido
-para Barbeiros iniciantes.
+Serão Apresentados alguns exemplos de como fazer um corte degradê rápido para Barbeiros iniciantes.
 
 O primeiro é do barbeiro **Issac Arts**.
 
@@ -514,62 +423,10 @@ O segundo exemplo é o barbeiro **Valdinei Santos**
 
 {{< video https://www.youtube.com/watch?v=EBkGYEXy8M0 >}}
 
-
-
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
 :::
-
-
-
-# **O Que Vou Aprender?**
-
-Você vai aprender muito mais do que apenas cortar cabelo, você vai
-dominar todas as técnicas para se tornar um Barbeiro Profissional
-Completo, confira:
-
--   **Lista de Equipamentos/Materiais para Iniciar**;
--   **Como Usar os Equipamentos**;
--   **Cuidados Essenciais**;
--   **Primeiro Corte de Cabelo**;
--   **Técnicas de Tesoura**;
--   **Técnicas de Navalha**;
--   **Corte Social(Tesoura)**;
--   **Corte Social(Máquina)**;
--   **Técnica do Pezinho**;
--   **Técnica da Sobrancelha**;
--   **Técnicas de Fade/Degradê**;
--   **High Fade(Degradê Alto)**;
--   **Mid Fade(Degradê Médio)**;
--   **LOW Fade(Degradê Baixo)**;
-
-**E MUITO, MUITO MAIS**
-
-
-::: progress
-::: {.progress-bar style="width: 100%;"}
-:::
-:::
-
-
-
-# **Quem É o Professor**
-
-Começou na barbearia aos 31 anos de idade,Virgílio começou a fazer os
-seus primeiros corte de cabelo. O jovem empresário hoje aos 41 anos de
-idade e já com mais de 10 anos na profissão de barbeiro é dono da sua
-própria barbearia e já emprega mais de 4 pessoas em sua equipe levando
-sustendo para suas famílias através da barbearia.
-
-Virgílio que é conhecido como **Barba** também compartilha seu
-conhecimento em cursos e workshop com sua metodologia simples e prática
-de aprender, com destaque para participaçõe em Projetos Socias nos
-bairros do distrito de Icoaraci, Estado do Pará - Brasil.
-
-O Barba, possui diversos cursos, tais como: **Barbeiro**, **Barba**,
-**Pigmentação** e **Corte Atualizado**, feitos com renomados
-Profissionais a nível Nacional.
 
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
