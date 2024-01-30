@@ -2,13 +2,13 @@
 title: "**CURSO De Barbeiro(A) Profissional**"  # Título
 subtitle: "Do Zero Absoluto"                    # SubTítulo
 author: "**VIRGÍLIO FERREIRA SOUSA**"           # Autores
-date: "`r format(Sys.time(), '%d %B, %Y')`"     # Data
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 lang: pt                                        # idioma: português
 fig-cap-location: top
 format:
   html:
-    #grid:
-    #  margin-width: 350px
+    grid:
+      margin-width: 350px
     toc: true                # Indice/Sumário
     toc_float: true          # Indice Flutuante
     toc-title: SUMÁRIO       # Título do Indice
@@ -17,9 +17,9 @@ format:
     colorlinks: true
   pdf: default
   docx: default
-#reference-location: margin
-#citation-location: margin
-#html-math-method: katex
+reference-location: margin
+citation-location: margin
+html-math-method: katex
 theme: 
   light: [pulse,custom.scss]    #custom-light.theme
   dark:  [cyborg,custom.scss]   #custom-dark.theme
@@ -28,6 +28,16 @@ abstract: "O Curso Básico de Barbeiro é indicado para você que é iniciante o
 ---
 
 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tinytex)
+library(rmarkdown)
+library(knitr)
+
+
+```
 
 
 
